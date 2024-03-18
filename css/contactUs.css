@@ -29,30 +29,36 @@ header{
     margin-right: 60px;
 }
 
-.progress-container {
-    width: 300px;
-    height: 30px;
-    border: 1px solid #ccc;
+  .progress-container {
     position: relative;
-  }
-  
-  .progress-bar {
-    height: 100%;
-    background-color: #4caf50;
-    width: 0%;
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.progress-bar {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
-  .progress-handle {
-    width: 10px;
-    height: 10px;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+.progress-handle {
+    width: 20px;
+    height: 20px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 2px solid #4caf50;
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-5%, -50%);
     cursor: pointer;
-  }
+}
+#budgetAmount {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
