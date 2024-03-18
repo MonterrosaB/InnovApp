@@ -400,7 +400,7 @@ font-size: larger;
   .social-link{
       height: 100%;
       width: 30px;
-      background-image: url(FacebookBlanco.png);
+      background-image: url(img/FacebookBlanco.png);
       background-size: 70%;
       background-position: center;
       margin-right: 1rem;
@@ -412,11 +412,11 @@ font-size: larger;
   }
   
   footer .social-link:nth-of-type(2){
-      background-image: url(TwitterBlanco.png);
+      background-image: url(img/TwitterBlanco.png);
   }
   
   footer .social-link:nth-of-type(3){
-      background-image: url(LinkedinBlanco.png);
+      background-image: url(img/InstagramBlanco.png);
   }
   
   
